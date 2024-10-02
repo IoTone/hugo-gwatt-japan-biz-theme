@@ -1,6 +1,7 @@
 # Overview
 
-This Hugo theme is called japan-biz.  It is based on Based on html5up’s [Spectral](https://html5up.net/spectral) theme.  The configuration used is based on a project by sbruder for a customer project this person did.  The original source is https://git.sbruder.de/kegelschiene/site , for the site: [kegelschiene.net](https://kegelschiene.net/en/).
+This Hugo theme is called japan-biz.  When we looked around there didn't seem to exist any Hugo templates other than a blog designed for Japanese business websites.  It is based on Based on html5up’s [Spectral](https://html5up.net/spectral) theme.  The configuration used is based on a project by sbruder for a customer project this person did.  The original source is https://git.sbruder.de/kegelschiene/site , for the site: [kegelschiene.net](https://kegelschiene.net/en/).
+
 
 Our team in Japan will maintain this to add features specific to Japanese market (SNS links appropriate to Japan, etc.) but these things are in the works.  Please file an issue if you need specific features.
 
