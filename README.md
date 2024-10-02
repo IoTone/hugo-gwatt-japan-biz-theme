@@ -15,35 +15,22 @@ Sometimes this will be done in earnest, however, it will usually mean a scaled d
 
 If this is your first hugo page, please read the [Basic Usage of Hugo](https://gohugo.io/getting-started/usage/) article.
 
-Clone this repo or download the zip, place it inside of the `themes` directory
-of your hugo site and use the `config.toml` file located in exampleSite as a
-starting point.
+This is a demonstration site with placeholder content in the content directory.
+
+Replace the content directory with your own content in the /content/en and /content/ja folders
 
 ## Building
 
+Tested working in hugo v0.135.0
+
 Testing
-    hugo --serve
+    hugo server -D
+
+Copy the localhost URL provided in the console into your broswer
 
 Generate
+    hugo 
 
-
-    hugo -d ../public
-
-If using https, you will need to specify the domain and https URI:
-
-hugo -d ../public -b https://mygreat.site
-
-
-## Examples
-
-Original information from upstream project ...
-
-If you want to have a look at a real life installation, feel free to explore
-the [repo of
-kegelschiene.net](https://git.sbruder.de/kegelschiene/site). It also includes
-the configuration for a multilingual site.
-
-For a minimial setup, check out the [exampleSite](exampleSite) directory. Its latest live build can be seen at <https://sbruder.github.io/spectral/>.
 
 ## License
 
