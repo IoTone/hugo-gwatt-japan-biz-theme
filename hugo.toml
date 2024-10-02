@@ -1,0 +1,48 @@
+baseURL = 'https://example.org/'
+
+theme = 'japan-biz'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Business Website'
+    weight = 1
+    [languages.en.params]
+      subtitle = "Let's work to make people smile"
+  [languages.ja]
+    contentDir = 'content/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = 'Japanese'
+    title = 'ビジネスサイト'
+    weight = 2
+    [languages.ja.params]
+      subtitle = 'スマイルのために働きましょう'
+
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
