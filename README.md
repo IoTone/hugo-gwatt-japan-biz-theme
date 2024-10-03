@@ -12,7 +12,7 @@ Sometimes this will be done in earnest, however, it will usually mean a scaled d
 
 ## Installation
 
-If this is your first hugo page, please read the [Basic Usage of Hugo](https://gohugo.io/getting-started/usage/) article.
+If this is your first hugo page, please read the [Basic Usage of Hugo](https://gohugo.io/getting-started/usage/) article.  Note: Hugo v0.135.0 or greater is needed.  Older versions may not work.
 
 Clone this repo or download the zip, place it inside of the `themes` directory
 of your hugo site and use the `config.toml` file located in exampleSite as a starting point.
@@ -34,7 +34,14 @@ If using https, you will need to specify the domain and https URI:
 
 - @garethwatt
 - @truedat101
+- http://iotoneai.site
 - gohugo.io (thanks for the platform)
+
+## Support
+
+If you have specific problems or questions, please file an issue, or offer a pull request.
+
+If you need expert customization and evelopment of a localized site for your business or project, please contact us.  We have an expert crew with native english and japanese speakers available.  If you has needs for more languages, we can support a plan for additional localization of languages.
 
 ## License
 
