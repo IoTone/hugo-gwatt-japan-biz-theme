@@ -1,7 +1,6 @@
 # Overview
 
-This Hugo theme is called japan-biz.  When we looked around there didn't seem to exist any Hugo templates other than a blog designed for Japanese business websites.  It is based on Based on html5up’s [Spectral](https://html5up.net/spectral) theme.  The configuration used is based on a project by sbruder for a customer project this person did.  The original source is https://git.sbruder.de/kegelschiene/site , for the site: [kegelschiene.net](https://kegelschiene.net/en/).
-
+This Hugo theme is called japan-biz.  When we looked around there didn't seem to exist any Hugo templates other than a blog designed for Japanese business websites.  It is written from scratch, but inspired in spirit by the MicroCMS Japan business theme for nestJS : https://github.com/microcmsio/nextjs-simple-corporate-site-template .
 
 Our team in Japan will maintain this to add features specific to Japanese market (SNS links appropriate to Japan, etc.) but these things are in the works.  Please file an issue if you need specific features.
 
@@ -15,23 +14,28 @@ Sometimes this will be done in earnest, however, it will usually mean a scaled d
 
 If this is your first hugo page, please read the [Basic Usage of Hugo](https://gohugo.io/getting-started/usage/) article.
 
-This is a demonstration site with placeholder content in the content directory.
+Clone this repo or download the zip, place it inside of the `themes` directory
+of your hugo site and use the `config.toml` file located in exampleSite as a starting point.
 
 Replace the content directory with your own content in the /content/en and /content/ja folders
 
 ## Building
 
-Tested working in hugo v0.135.0
-
-Testing
-    hugo server -D
-
-Copy the localhost URL provided in the console into your broswer
-
 Generate
-    hugo 
 
+
+    hugo -d ../public
+
+If using https, you will need to specify the domain and https URI:
+
+    hugo -d ../public -b https://myurl.co.jp
+
+## Contributors
+
+- @garethwatt
+- @truedat101
+- gohugo.io (thanks for the platform)
 
 ## License
 
-This theme is licensed under the terms of the Creative Commons Attribution 3.0 Unported (like html5up’s original theme). See the LICENSE.md file for more information on this.
+MIT/X
